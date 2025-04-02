@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    <h2>Exemplo de formulário HTML</h2>
+
+    <form name="meuform" method="post" action="">
+        <table>
+            <tr>
+                <td>Nome: </td>
+                <td><input type="text" name="nome" id="nome" size="40" autofocus /></td>
+            </tr>
+            <tr>
+                <td>id: </td>
+                <td><input type="text" name="id" id="id" size="10" required /> </td>
+            </tr>
+            <tr>
+                <td>senha: </td>
+                <td><input type="password" name="senha" id="senha" placeholder="Sugestão: 6 caracteres" /></td>
+            </tr>
+            <tr>
+                <td>e-mail: </td>
+                <td><input type="email" name="ende" id="ende" size="18" /></td>
+            </tr>
+        </table>
+
+        <br /> <br />
+        
+        Estado civil: <br />        
+        <input type="radio" id="s" name="estcivil" value="S" checked /> 
+        <label for="s"> solteiro </label> <br />        
+        <input type="radio" id="c" name="estcivil" value="C" /> 
+        <label for="c"> casado </label> <br />        
+        <input type="radio" id="v" name="estcivil" value="V" /> 
+        <label for="v"> viuvo </label> <br /> <br />
+
+        Selecione suas preferências: <br />
+        <input type="checkbox" id="ci" name="prefers" value="ci" /> cinema <br />
+        <input type="checkbox" id="te" name="prefers" value="te" /> teatro <br />
+        <input type="checkbox" id="mu" name="prefers" value="mu" /> música <br />
+        <input type="checkbox" id="es" name="prefers" value="es" /> esportes <br /> <br />
+
+        Qual é a sua linguagem preferida? <br />
+        <select id="linguagem" name="linguagem">
+            <option value="java">Java</option>
+            <option value="vb">Visual Basic</option>
+            <option value="p">Python</option>
+            <option value="csharp">C#</option>
+            <option value="py">PHP</option>
+        </select>
+
+        <br /><br />
+
+        Por último, envie sua opinião sobre nosso site: <br />
+        <textarea id="opiniao" name="opiniao" rows="5" col="40">
+        </textarea>
+
+        <br /><br />
+
+        <input type="submit" value="Enviar" /> <br />
+    </form>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Aula 03</title>
+    <link rel="icon" href="https://mfpledon.com.br/favicon.ico"/>
+</head>
+
+<body>
+    <h1>Vários exemplos da aula 03</h1>
+    <h4>Exemplos com as tags estudadas hoje</h4>
+    <h3>Tabela com países da América do Sul</h3>
+    <table border="2">
+        <tr>
+            <td><strong>País</strong></td>
+            <td><strong>Capital</strong></td>
+        </tr>
+        <tr>
+            <td>Brasil</td>
+            <td>Brasília</td>
+        </tr>
+        <tr>
+            <td>Argentina</td>
+            <td>Buenos Aires</td>
+        </tr>
+        <tr>
+            <td>Venezuela</td>
+            <td>Caracas</td>
+        </tr>
+        <tr>
+            <td>Chile</td>
+            <td>Santiago de Chile</td>
+        </tr>
+    </table>
+    <!-- table>tr*5>td*2 -->
+
+    <h2>Times do campeonato</h2>
+    <ul>
+        <li>Palmeiras</li>
+        <li>Corinthians</li>
+        <li>Santos</li>
+        <li>São Paulo</li>
+        <li>Portuguesa</li>
+    </ul>
+    <!-- ul>li*5 -->
+
+    <h2>Cantores/as preferidos/ass</h2>
+    <ol>
+        <li>Adele</li>
+        <li>Anitta</li>
+        <li>Reginaldo Rossi</li>
+        <li>Dua Lipa</li>
+        <li>The Weeknd</li>
+        <li>Michael Jackson</li>
+    </ol>
+    <!-- ol>li*5  -->
+    <!-- ul lista com bolinhas, ol lista numerada -->
+    <br/>
+
+    <ol type="a">
+        <li>Adele</li>
+        <li>Anitta</li>
+        <li>Reginaldo Rossi</li>
+        <li>Dua Lipa</li>
+        <li>The Weeknd</li>
+        <li>Michael Jackson</li>
+    </ol>
+    <!-- type="a" ordena a lista com letras -->
+    <br/>
+    <img src="https://i.pinimg.com/236x/69/d4/0b/69d40b985b37a4f31fcb0296f37809e8.jpg" width="250" title="gato fofo"/>
+    <br/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uUdhJclAc7CoU-
+    LY8KjPFVskSwjSuYwV-GT01ULDc80rORiLwZPXndII7Rk0-uPseZg&usqp=CAU" width="250" title="cachorro fofo"/>
+    <br/>
+
+    <h4>Alguns dos meus sites favoritos</h4>
+    <a href="https://www.friv.com/">Friv Jogos</a>
+    <br/>
+    <a href="https://www.minecraft.net/pt-br">Minecraft</a>
+    <br/>
+    <a href="https://www.tiktok.com/pt-BR/">TikTok</a>
+    <br/>
+
+    <h4>Outro site utilizando a tag iframe</h4>
+    <iframe src="https://mfpledon.com.br" width="500px" height="500px">
+        <p> seu navegador não suporta iframes.</p>
+    </iframe>
+    <h4>Video da Sofia Santino</h4>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/Teq0n1BxGBU" title="POGRAMA DE CARNAVAL #39" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8" />
+    </head>
+    
+    <body>
+    
+        <h2>Exemplo de formulário HTML</h2>
+    
+        <form name="meuform" method="post" action="">
+            <table>
+                <tr>
+                    <td>Nome: </td>
+                    <td><input type="text" name="nome" id="nome" size="40" autofocus /></td>
+                </tr>
+                <tr>
+                    <td>id: </td>
+                    <td><input type="text" name="id" id="id" size="10" required /> </td>
+                </tr>
+                <tr>
+                    <td>senha: </td>
+                    <td><input type="password" name="senha" id="senha" placeholder="Sugestão: 6 caracteres" /></td>
+                </tr>
+                <tr>
+                    <td>e-mail: </td>
+                    <td><input type="email" name="ende" id="ende" size="18" /></td>
+                </tr>
+            </table>
+    
+            <br /> <br />
+            
+            Estado civil: <br />        
+            <input type="radio" id="s" name="estcivil" value="S" checked /> 
+            <label for="s"> solteiro </label> <br />        
+            <input type="radio" id="c" name="estcivil" value="C" /> 
+            <label for="c"> casado </label> <br />        
+            <input type="radio" id="v" name="estcivil" value="V" /> 
+            <label for="v"> viuvo </label> <br /> <br />
+    
+            Selecione suas preferências: <br />
+            <input type="checkbox" id="ci" name="prefers" value="ci" /> cinema <br />
+            <input type="checkbox" id="te" name="prefers" value="te" /> teatro <br />
+            <input type="checkbox" id="mu" name="prefers" value="mu" /> música <br />
+            <input type="checkbox" id="es" name="prefers" value="es" /> esportes <br /> <br />
+    
+            Qual é a sua linguagem preferida? <br />
+            <select id="linguagem" name="linguagem">
+                <option value="java">Java</option>
+                <option value="vb">Visual Basic</option>
+                <option value="p">Python</option>
+                <option value="csharp">C#</option>
+                <option value="py">PHP</option>
+            </select>
+    
+            <br /><br />
+    
+            Por último, envie sua opinião sobre nosso site: <br />
+            <textarea id="opiniao" name="opiniao" rows="5" col="40">
+            </textarea>
+    
+            <br /><br />
+    
+            <input type="submit" value="Enviar" /> <br />
+        </form>
+    
+        <br /><br />
+        <head>
+            <meta charset="utf-8">
+            <title>Exemplos com audio</title>
+        </head>
+        
+        <body>
+            <h2>Exemplos com a tag audio</h2>
+            <h4>Exemplos com a tag audio</h4>
+            
+            <audio src="picapau.mp3" controls="controls"></audio>
+        
+            <br />
+        
+            <audio controls="controls">
+                <source src="som de derrota.ogg" type="audio/ogg" />
+                <source src="som de derrota.mp3" type="audio/mpeg" />
+                <source src="som de derrota.wav" type="audio/vnd.wave" />
+                Seu navegador não aceita a tag audio
+            </audio>
+        
+        </body>
+        
+    
+    </body>
+    </html>
+    
+    <br/>
+</body>
+
+</html>
